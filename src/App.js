@@ -17,7 +17,7 @@ function App() {
           src={logo}
           alt="Ski Mask Cat"
         />
-        <p>CA: </p>
+        <p>CA: 0xA6f774051dFb6b54869227fDA2DF9cb46f296c09</p>
         <a href='https://x.com/skicat_CTO' target='_blank'>        <img
           className='soc'
           src={x}
