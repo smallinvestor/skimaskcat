@@ -23,7 +23,7 @@ function App() {
           src={x}
           alt="Ski Mask Cat"
         /></a>
-        <a href='' target='_blank'>        <img
+        <a href='https://app.uniswap.org/swap?outputCurrency=0xA6f774051dFb6b54869227fDA2DF9cb46f296c09&chain=base' target='_blank'>        <img
           className='soc'
           src={uni}
           alt="Ski Mask Cat"
