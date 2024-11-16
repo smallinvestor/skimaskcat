@@ -6,6 +6,7 @@ import uni from './uni.png';
 import tg from './tg.png';
 import dex from './dex.png';
 import dext from './dext.png';
+import cgt from './cgt.png';
 import './App.css';
 
 function App() {
@@ -33,7 +34,7 @@ function App() {
           className='soc'
           src={tg}
           alt="Ski Mask Cat"
-        /></a>
+        /></a><br />
         <a href='https://dexscreener.com/base/0xa6f774051dfb6b54869227fda2df9cb46f296c09' target='_blank'>        <img
           className='soc'
           src={dex}
@@ -42,6 +43,11 @@ function App() {
         <a href='https://www.dextools.io/app/en/base/pair-explorer/0x8a72f8c0184b825c724f0cc3d2229cc6c36ea9d7?t=1731783960962' target='_blank'>        <img
           className='soc'
           src={dext}
+          alt="Ski Mask Cat"
+        /></a>
+        <a href='https://www.geckoterminal.com/base/pools/0x8a72f8c0184b825c724f0cc3d2229cc6c36ea9d7' target='_blank'>        <img
+          className='soc'
+          src={cgt}
           alt="Ski Mask Cat"
         /></a>
 
