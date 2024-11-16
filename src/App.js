@@ -4,6 +4,7 @@ import banner from './dexbanner.png';
 import x from './x.png';
 import uni from './uni.png';
 import tg from './tg.png';
+import dex from './dex.png';
 
 import './App.css';
 
@@ -31,6 +32,11 @@ function App() {
         <a href='https://t.me/skicatportal' target='_blank'>        <img
           className='soc'
           src={tg}
+          alt="Ski Mask Cat"
+        /></a>
+        <a href='https://dexscreener.com/base/0xa6f774051dfb6b54869227fda2df9cb46f296c09' target='_blank'>        <img
+          className='soc'
+          src={dex}
           alt="Ski Mask Cat"
         /></a>
 
