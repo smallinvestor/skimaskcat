@@ -31,7 +31,7 @@ function App() {
         <a href='https://t.me/skicatportal' target='_blank'>        <img
           className='soc'
           src={tg}
-          alt="Ski Mask Cat"
+          alt="Ski Mask Catt"
         /></a>
 
         <img
