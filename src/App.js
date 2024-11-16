@@ -5,7 +5,7 @@ import x from './x.png';
 import uni from './uni.png';
 import tg from './tg.png';
 import dex from './dex.png';
-
+import dext from './dext.png';
 import './App.css';
 
 function App() {
@@ -39,12 +39,18 @@ function App() {
           src={dex}
           alt="Ski Mask Cat"
         /></a>
+        <a href='https://www.dextools.io/app/en/base/pair-explorer/0x8a72f8c0184b825c724f0cc3d2229cc6c36ea9d7?t=1731783960962' target='_blank'>        <img
+          className='soc'
+          src={dext}
+          alt="Ski Mask Cat"
+        /></a>
 
         <img
           className='banner'
           src={banner}
           alt="Ski Mask Cat"
         />
+        <p>skimaskcatbase@gmail.com</p>
       </header>
     </div>
   );
