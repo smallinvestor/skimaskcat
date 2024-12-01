@@ -10,6 +10,8 @@ import cgt from './cgt.png';
 import tiktok from './tiktok.jpg';
 import './App.css';
 
+
+
 function App() {
   const handleCopy = () => {
     // The text you want to copy
@@ -32,6 +34,7 @@ function App() {
   };
 
   return (
+
     <div className="App">
 
       <header className="App-header">
