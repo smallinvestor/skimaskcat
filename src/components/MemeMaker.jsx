@@ -184,12 +184,21 @@ const MemeMaker = () => {
   return (
     <div className="meme-generator">
       <h1>MASK UR PFP</h1>
-      <p class="m-tag">
+      <p className="m-tag">
         Upload your profile picture - select a ski mask - size it and download
         it!
       </p>
       <div className="meme-content">
         <div className="canvas-and-controls-container">
+          <div className="action-buttons">
+            <button onClick={handleReset} className="reset-button">
+              <RotateCw className="icon" /> Reset
+            </button>
+            <button onClick={handleDownload} className="download-button">
+              <Download className="icon" /> Download
+            </button>
+          </div>
+
           <div className="meme-canvas">
             <canvas ref={canvasRef} />
             <input
@@ -230,6 +239,7 @@ const MemeMaker = () => {
               </div>
             )}
           </div>
+
           <div className="meme-controls">
             <div className="sticker-menu">
               <div className="sticker-grid">
@@ -248,14 +258,6 @@ const MemeMaker = () => {
                   </button>
                 ))}
               </div>
-            </div>
-            <div className="action-buttons">
-              <button onClick={handleReset} className="reset-button">
-                <RotateCw className="icon" /> Reset
-              </button>
-              <button onClick={handleDownload} className="download-button">
-                <Download className="icon" /> Download
-              </button>
             </div>
           </div>
         </div>
