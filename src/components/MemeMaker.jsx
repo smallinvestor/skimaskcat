@@ -10,17 +10,19 @@ import {
   ArrowDown,
 } from "lucide-react";
 
-import mask1 from "../assets/green-mask.png";
-import mask2 from "../assets/l-green-mask.png";
-// import mask3 from "../assets/l-purple-mask.jpg";
-// import mask4 from "../assets/pink-mask.jpg";
-// import mask5 from "../assets/purple-mask.jpg";
-// import mask6 from "../assets/yellow-mask.jpg";
+import mask1 from "../assets/BlackMask.png";
+import mask2 from "../assets/BlueMask.png";
+import mask3 from "../assets/GreyMask.png";
+import mask4 from "../assets/PinkMask.png";
+import mask5 from "../assets/PurpleMask.png";
+import mask6 from "../assets/WhiteMask.png";
+import mask7 from "../assets/GreenMask.png";
+import mask8 from "../assets/YellowMask.png";
 
 const images = [
   mask1,
   mask2,
-  //  mask3, mask4, mask5, mask6
+  mask3, mask4, mask5, mask6, mask7, mask8
 ];
 
 const MemeMaker = () => {
@@ -183,7 +185,8 @@ const MemeMaker = () => {
 
   return (
     <div className="meme-generator">
-      <h1>MASK UR PFP</h1>
+      <div className="maskon">
+        <h3>SKICAT UR PFP</h3></div>
       <p className="m-tag">
         Upload your profile picture - select a ski mask - size it and download
         it!

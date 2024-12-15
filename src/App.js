@@ -8,6 +8,12 @@ import dex from "./dex.png";
 import dext from "./dext.png";
 import cgt from "./cgt.png";
 import tiktok from "./tiktok.jpg";
+
+import gate from "./gate.png";
+import lbank from "./lbank.png";
+import xt from "./xt.png";
+
+import howto from './howto.mp4';
 import "./App.css";
 import MemeMaker from "./components/MemeMaker";
 
@@ -189,6 +195,37 @@ function App() {
           </a>
         </div>
         <MemeMaker />
+        <div className="buy">
+          <h3>how to buy $skicat</h3>
+          <div className="socials">
+            <a
+              href="https://www.lbank.com/nl/trade/skicat_usdt"
+              target="_blank"
+            >
+              {" "}
+              <img className="cexx" src={lbank} alt="Ski Mask Cat" />
+            </a>
+
+            <a
+              href="https://www.xt.com/en/trade/skicat_usdt"
+              target="_blank"
+            >
+              {" "}
+              <img className="cexx" src={xt} alt="Ski Mask Cat" />
+            </a>
+            <a
+              href="https://www.gate.io/pilot/base/ski-mask-cat-skicat"
+              target="_blank"
+            >
+              {" "}
+              <img className="cexx gate" src={gate} alt="Ski Mask Cat" />
+            </a>
+          </div>
+          <video width="640" height="360" controls>
+            <source src={howto} type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
         <div className="socials">
           <a href="https://x.com/skicat_CTO" target="_blank">
             {" "}
