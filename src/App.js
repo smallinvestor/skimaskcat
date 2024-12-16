@@ -144,7 +144,7 @@ function App() {
             <img className="soc" src={dext} alt="Ski Mask Cat" />
           </a>
           <a
-            href="https://www.geckoterminal.com/base/pools/0x8a72f8c0184b825c724f0cc3d2229cc6c36ea9d7"
+            href="https://www.coingecko.com/en/coins/ski-mask-cat"
             target="_blank"
           >
             {" "}
@@ -187,7 +187,7 @@ function App() {
             <img className="soc" src={dext} alt="Ski Mask Cat" />
           </a>
           <a
-            href="https://www.geckoterminal.com/base/pools/0x8a72f8c0184b825c724f0cc3d2229cc6c36ea9d7"
+            href="https://www.coingecko.com/en/coins/ski-mask-cat"
             target="_blank"
           >
             {" "}
@@ -262,7 +262,7 @@ function App() {
             <img className="soc" src={dext} alt="Ski Mask Cat" />
           </a>
           <a
-            href="https://www.geckoterminal.com/base/pools/0x8a72f8c0184b825c724f0cc3d2229cc6c36ea9d7"
+            href="https://www.coingecko.com/en/coins/ski-mask-cat"
             target="_blank"
           >
             {" "}
