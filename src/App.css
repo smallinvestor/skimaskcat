@@ -116,6 +116,11 @@ p.email {
   padding: 10px 0px;
 }
 
+.socials a {
+  margin-bottom: 4px;
+  display: inline-block;
+}
+
 @media (max-width: 600px) {
 
   .App-header .maskon h3,
